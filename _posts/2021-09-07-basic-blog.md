@@ -34,12 +34,14 @@ the most open source thing we can do is use a real github repository and use git
 
 setting up the most basic jekyll blog requires:
 
-1. a readme displaying the posts [`../READMD.md`](../README.md) contains a minimal example. it uses jekyll's suggestion to bootstrap the list.
+1. a readme displaying the posts [`../READMD.md`](https://github.com/tonyfast/basic-blog/blob/main/README.md) contains a minimal example. it uses jekyll's suggestion to bootstrap the list.
 
         # basic blog
-
+        
+        {% raw %}
         {% for post in site.posts %}* [{{ post.title }}]({{site.baseurl}}{{ post.url }})
         {% endfor %}
+        {% endraw %}
 
 2. github pages activated in the project settings
 
