@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "the most basic blog"
+author: "tonyfast"
 ---
 
 # how to make the most basic blog
